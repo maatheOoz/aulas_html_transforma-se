@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+
+    <style>
+        body {
+            background-image: url(the-glep-smiling-friends.gif);
+            color: azure;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        p {
+            -webkit-text-stroke: 0.2px rgb(0, 255, 8);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Imagem de Fundo</h1>
+    <p>Exemplos de imagens de fundo.</p>
+
+    <!-- <p style="background-image: url(the-glep-smiling-friends.gif);">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Libero maxime at provident officiis quos ad sequi natus architecto <br> rerum aspernatur similique, nemo unde veritatis minus? <br> Eaque incidunt est voluptate aspernatur!</p> -->
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="the-cowboybebop.jpg">
+        <source media="(min-width: 465px)" srcset="workplace.jpg">
+        <img src="">
+    </picture>
+
+</body>
+</html>
